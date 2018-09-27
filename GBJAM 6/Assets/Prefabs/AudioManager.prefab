@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1335940647063664}
+  m_IsPrefabAsset: 1
+--- !u!1 &1335940647063664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4579960710139974}
+  - component: {fileID: 114762915939607644}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4579960710139974
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335940647063664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114762915939607644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335940647063664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48830c798c466134b930345e259dfce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: SoliderHit
+    clip: {fileID: 8300000, guid: 19f7b176e8a2a7f4e9611cae6f8be532, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SoliderDeath
+    clip: {fileID: 8300000, guid: fe2ebccb1170eea4e8c3ab3a40ebc49a, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonDeath
+    clip: {fileID: 8300000, guid: a6efd569ea8124248b5770d62dc4170c, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SkeletonHit
+    clip: {fileID: 8300000, guid: 7ca1b1f5e5b85b44aba06e284b3b4af0, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MonsterHit
+    clip: {fileID: 8300000, guid: 2127f8c6185f39643a3a6cf29214dd4f, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MonsterDeath
+    clip: {fileID: 8300000, guid: 4ccd1fcb049700547bad2690ace92769, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MosterFire
+    clip: {fileID: 8300000, guid: fd09bd1a24806ed4c825461987b79df3, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 09fb1a7c50f240f44ae86cc0789cf5f0, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: NextWave
+    clip: {fileID: 8300000, guid: 519c73121331ec84d955d59f94ff743e, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
